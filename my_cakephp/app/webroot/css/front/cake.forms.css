@@ -1,0 +1,95 @@
+.form{
+    font-family: Verdana;   
+    font-size:1em;
+    /*margin:1em;*/
+    padding:1em;   
+}
+ 
+.form p.formtitle{
+    color: #026475;
+    font-size:1.3em;
+    font-weight: bold;
+}
+ 
+.form fieldset{
+    /*width:40em;*/
+    border:1px solid #FF9148;  
+    /*background-image: url(../../img/front/css_img/Newspaper-Feed-icon.png);*/
+    background-position: bottom right;
+    background-repeat: no-repeat;
+	min-height:125px;
+}
+ 
+.form fieldset legend{
+    color: #026475;
+}
+ 
+.formfield{
+    /*width:30em;*/
+    padding:5px;
+}
+.formfield.upload{
+	width: 260px;
+	height: 57px;
+	background: url('../../img/front/upload.png') no-repeat;
+	overflow: hidden;
+	background-position:right;
+}
+
+div.upload input {
+	display: block !important;
+	width: auto !important;
+	height: 57px !important;
+	opacity: 0 !important;
+	overflow: hidden !important;
+	margin-left:83px;
+	margin-top:-1px;
+	cursor:pointer;
+} 
+.formfield label{
+    display:block;
+    float:left;
+    width:12em;
+    padding:1px;
+    color:#026475;
+    text-align:center;
+}
+ 
+.formfield input, .formfield  select{
+    padding:0.15em;
+    border: 1px solid #6CF;
+    background:#FFF;
+     
+    font-family: Verdana;   
+    font-size:1em;
+     
+    -moz-border-radius:0.4em;
+    -khtml-border-radius:0.4em;
+}
+ 
+.formfield input:hover, input:focus, select:hover, select:focus {
+    outline:none;
+	border: 1px solid #6CF;
+	box-shadow: 0 0 5px #6AB5FF;
+	-moz-box-shadow: 0 0 5px #6AB5FF;
+	-webkit-box-shadow: 0 0 5px #6AB5FF;
+}
+.required input {
+    border:1px solid #E0691A;
+}
+ 
+.form .submit input{
+    font-family: Verdana;   
+    font-size:14px;
+	font-style:italic;
+	font-weight:bold;
+    margin-top: 0.3em;
+	padding:5px;
+	background-color:#FF9148;
+	border:medium none;
+	cursor:pointer;
+	color:#fff;
+}
+.form .submit input:hover{
+    background-color:royalblue;
+}
